@@ -1,2 +1,4 @@
-# circumference-of-a-circle
-This Python program calculates the circumference of a circle using its radius. It uses the mathematical formula and the math module to obtain an accurate result. The program accepts the radius as user input and displays the circumference rounded to two decimal places.
+import math
+r = float(input("Enter the radius of the circle: "))
+c = 2 * math.pi * r
+print("Circumference of the circle =", round(c, 2))
